@@ -28,7 +28,8 @@ body {
     background-color: #153079;
     padding: 10px;
     border-radius: 10px;
-    text-align:center 
+    text-align:center; 
+    color: #ffffff;
   }
 
 
@@ -44,6 +45,16 @@ body {
     height: 100px;
     background-color: #c0c916;
  
+  }
+
+  .square3 {
+    width: 400px;
+    height: 600px;
+    background-color: #c0c916;
+    border-radius: 35%;
+    position: absolute;
+    margin-left: 25.555555%;
+
   }
 
   .circle1 {
@@ -103,7 +114,7 @@ body {
     height: 450px;
     background-color: #fa9121;
     border-radius: 50%;
-    opacity: 0.95;
+    opacity: 1;
     
 }
 
@@ -119,12 +130,44 @@ body {
 .oval3 {
   width: 100px;
   height: 350px;
-  background-color: #ffffff;
+  background-color: #8b1010;
   border-radius: 50%;
   opacity: 0.95;
   transform: rotate(-45deg);
 }
 
+
+.oval4 {
+  width: 400px;
+  height: 70px;
+  background-color: #fa9121;
+  border-radius: 10%;
+  opacity: ;
+  
+}
+
+
+.line{
+  width: 380px;
+  height: 0px;
+  background-color: #000000;
+  border-radius: 40%;
+  opacity: 1;
+  position: absolute;
+  margin-left: 20.8%;
+  margin-top: -6%
+}
+
+.line2{
+  width: 0px;
+  height: 70px;
+  background-color: #000000;
+  border-radius: 40%;
+  opacity: 1;
+  position: relative;
+  margin-left: 5%;
+  margin-top: 15%;
+}
 
 .center  {
 text-align: center;
@@ -134,6 +177,15 @@ top: 40%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+
+.center2  {
+  text-align: center;
+  padding: 70px 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-47.5%, 0%);
+  }
 
 .bigger {
   width: 200%;

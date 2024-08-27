@@ -1,10 +1,9 @@
 
 body {
     font-family:arial;
-    font-size: 14px;
+    font-size: 28px;
     background-color: #5B99C2;
-    margin:0 auto; 
-  }
+}
   
   h1 {
     color: #F9DBBA;
@@ -24,9 +23,10 @@ body {
 
   main {
     margin: 0 auto;
-    width: 50%;
+    width: 90%;
+    height: 90%;
     background-color: #153079;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     text-align:center 
   }
@@ -47,10 +47,22 @@ body {
   }
 
   .circle1 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 140px;
     background-color: #fa9121;
     border-radius: 50%;
+
+  }
+
+  .circle2 {
+    width: 100px;
+    height: 95px;
+    background-color: #000000;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 43%;
   }
   .triangle1 {
     border-color: transparent red transparent transparent;
@@ -62,11 +74,12 @@ body {
 
 
   .triangle2 {
-    border-color: transparent transparent red transparent;
+    border-color: transparent transparent white transparent;
     border-style: solid;
     border-width: 0px 200px 200px 200px;
     height: 0px;
     width: 0px;
+    border-radius: 40%;
   }
 
   .triangle3 {
@@ -78,9 +91,71 @@ body {
   }
 
   .triangle4 {
-    border-color: red green orange blue;
+    border-color:  red transparent transparent transparent;
     border-style: solid;
     border-width: 200px 200px 0px 200px;
     height: 0px;
     width: 0px;
+}
+
+.oval1 {
+    width: 650px;
+    height: 450px;
+    background-color: #fa9121;
+    border-radius: 50%;
+    opacity: 0.95;
+    
+}
+
+.oval2 {
+  width: 100px;
+  height: 350px;
+  background-color: #fa9121;
+  border-radius: 50%;
+  opacity: 0.95;
+  transform: rotate(45deg);
+}
+
+.oval3 {
+  width: 100px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 0.95;
+  transform: rotate(-45deg);
+}
+
+
+.center  {
+text-align: center;
+padding: 70px 0;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.bigger {
+  width: 200%;
+  height: 200%;
+}
+
+.bigboarder {
+  border: 10px solid #000000;
+}
+
+.colorchange {
+  background-color: #ffffff;
+}
+
+.colorchange2 {
+  background-color: #000000;
+}
+
+.inrow {
+display: inline-block;
+}
+
+.bringdown {
+  margin-top: 280px;
 }
